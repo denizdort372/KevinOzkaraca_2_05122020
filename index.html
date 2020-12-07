@@ -3,10 +3,8 @@
 <head>
 
     <title>Reservia - Planifiez vos vacances</title>
-    <link rel="icon" type="image" href="C:\Users\kevin\Downloads\Projet 2 - Reservia\Reservia\images\logo\favicon.png">
+    <link rel="icon" type="image" href="images\logo\favicon.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <meta charset="utf-8" lang="fr">
     <meta name="descrition" content ="Reservia, une petite entreprise proposant un outil de planification de vacances. Le site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par leur budget ou par leur ambiance.">
 
@@ -14,18 +12,24 @@
 
 <body>
 
-    <header> 
-        <h1>Reservia</h1>
-        <ul>
-            <li>Hébergement</li>
-            <li>Activités</li>
-            <li>S'inscrire</li>
-        </ul>
+    <header>
+        <div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="lien.com">Hébergement</a></li>
+                    <li><a href="lien.com">Activités</a></li>
+                    <li><a href="lien.com">S'inscrire</a></li>
+                </ul>
+            </nav>
+            
+            <h1>Reservia</h1>
+        </div>
     </header>
 
-    <nav>
+    <div class="description">
             <h2>Trouvez votre hébergement pour des vacances de rève</h2>
             <p>En plein centre ville ou en pleine nature</p>
+    </div>
             <div class="searchButton">
                 <img src="C:\Users\kevin\Downloads\Projet 2 - Reservia\Reservia\images\logo\LogoMap.png">
                 <Select value="marseille">
@@ -137,41 +141,44 @@
             </ul>
             <p class="Iinformation">i</p>
             <p>Plus de 500 logement sont disponible dans cette ville</p>
-    </nav>
+        </div>
 
     <section>
-        <h2>Hébergement à Marseille</h2>
+        <h3>Hébergement à Marseille</h3>
     </section>
     
     <section>
-        <h2>Les plus populaires</h2>
+        <h3>Les plus populaires</h3>
     </section>
     
     <section>
-        <h2>Activités à Marseille</h2>
+        <h3>Activités à Marseille</h3>
     </section>
 
     <footer>
        
-        <h2>A propos</h2>
-        <ul>
-            <li>Fonctionnement du site</li>
-            <li>Condition générales de vente</li>
-            <li>Données et confidentialité</li>
-        </ul>
-
-        <h2>Nos hébergements</h2>
-        <ul>
-            <li>Charte qualité</li>
-            <li>Soumettre votre hotel</li>
-        </ul>
-
-        <h2>Assistance</h2>
+        <div>
+            <h3>A propos</h3>
             <ul>
-            <li>centre d'aide</li>
-            <li>Nous contacter</li>
-        </ul>
-
+                <li>Fonctionnement du site</li>
+                <li>Condition générales de vente</li>
+                <li>Données et confidentialité</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Nos hébergements</h3>
+            <ul>
+                <li>Charte qualité</li>
+                <li>Soumettre votre hotel</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Assistance</h3>
+            <ul>
+                <li>centre d'aide</li>
+                <li>Nous contacter</li>
+            </ul>
+        </div>
     </footer>
 
 </body>

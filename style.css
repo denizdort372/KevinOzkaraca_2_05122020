@@ -1,20 +1,56 @@
 @font-face{
     font-family: rango;
-    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    src: url('Rancho-Regular.ttf');
+}
+@font-face{
+    font-family: raleway;
+    src: url('Raleway.ttf');
 }
 
-header { 
-    column-count: 3;
+body {
+    margin-left: 25px ;
+    margin-right: 25px ; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: raleway;
 }
 
 h1 {
     color : #0065fc;
     font-family: rango;
+    display: inline;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly ;
+    margin-left: 50%;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.menu a{
+    text-decoration: none;
+    border-top : 2px;
+    padding-top : 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.menu a:hover{
+    border-top: 2px #0065fc solid;
+    }
+
+li {
+    list-style: none; 
+}
+
+.description {
+    tex
 }
 
 footer { 
     background-color: #f2f2f2;
-    column-count: 3;
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
 }
 
