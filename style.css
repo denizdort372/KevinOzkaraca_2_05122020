@@ -1,0 +1,20 @@
+@font-face{
+    font-family: rango;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
+header { 
+    column-count: 3;
+}
+
+h1 {
+    color : #0065fc;
+    font-family: rango;
+}
+
+footer { 
+    background-color: #f2f2f2;
+    column-count: 3;
+    display: block;
+}
+
