@@ -1,24 +1,29 @@
-/*Regle d'ensemble*/
+/*-----------Regle d'ensemble----------*/
 
 body {
-    margin: 0px 25px 0px 25px;
+    margin: 0px 0px 0px 0px;
     font-family: raleway;
 }
 li {
     list-style: none; 
 }
+.decalage{
+    margin: 0px 25px 0px 25px;
+}
 
 /*----------Header----------*/
 
-/*Titre principale*/
+/*----------Titre principale----------*/
 
 h1 {
     color: #0065fc;
     font-family: rango;
     display: inline;
+    margin-top: 0px;
+    text-size-adjust: 10px;
 }
 
-/*Menu de navigation principal*/
+/*----------Menu de navigation principal---------*/
 
 .menu {
     display: flex;
@@ -203,10 +208,11 @@ p {
     font-size: medium;
     display: flex;
     }
-
+/*----------Footer----------*/
 footer { 
     background-color: #f2f2f2;
     display: flex;
     justify-content: space-evenly;
+    margin: 0px;
 }
 
