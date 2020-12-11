@@ -13,8 +13,8 @@
 
 <body>
     <div class="decalage">
-    <header>
-        <div>
+        <heade> <!--  display: flex; justify-content: space-between -->
+            <h1>Reservia</h1>
             <nav>
                 <ul class="menu" >
                     <li><a href="lien.com">Hébergement</a></li>
@@ -22,48 +22,46 @@
                     <li><a id="register" href="lien.com">S'inscrire</a></li>
                 </ul>
             </nav>
-        </div>   
-            <h1>Reservia</h1>
-    </header>
+        </header>
 
-    <div class="description">
-            <h2>Trouvez votre hébergement pour des vacances de rève</h2>
-            <p>En plein centre ville ou en pleine nature</p>
+        <div class="description">
+                <h2>Trouvez votre hébergement pour des vacances de rève</h2>
+                <p>En plein centre ville ou en pleine nature</p>
+        </div>
+
+        <section class="search">
+                <div class="searchtape">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                    <input type="search" value="Marseille, France">
+                    <input class="textRecherche" type="submit" value="Recherche">
+                    <button class="searchicon" type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
+                </div>
+                <div class="filtres">
+                    <h3>Filtres</h3>
+                    <button><span class="icon"><i class="fas fa-money-bill-wave fa-fw" aria-hidden="true"></i></span>Économique</button>
+                    <button><span class="icon"><i class="fas fa-child fa-fw" aria-hidden="true"></i></span>Familial</button>
+                    <button><span class="icon"><i class="fas fa-heart fa-fw" aria-hidden="true"></i></span>Romantique</button>
+                    <button><span class="icon"><i class="fas fa-dog fa-fw" aria-hidden="true"></i></span>Animaux autorisés</button>
+                </div>
+                <div>
+                    <span class="inficon"><i class="fas fa-info" aria-hidden="true"></i></span>Plus de 500 logements sont disponibles dans cette ville
+                </div>
+        </section>
+
+        <section>
+            <h3>Hébergement à Marseille</h3>
+        </section>
+
+        <section>
+            <h3>Les plus populaires</h3>
+        </section>
+
+        <section>
+            <h3>Activités à Marseille</h3>
+        </section>
     </div>
     
-    <section class="search">
-            <div class="searchtape">
-                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                <input type="search" value="Marseille, France">
-                <input class="textRecherche" type="submit" value="Recherche">
-                <button class="searchicon" type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
-            </div>
-            <div class="filtres">
-                <h3>Filtres</h3>
-                <button><span class="icon"><i class="fas fa-money-bill-wave fa-fw" aria-hidden="true"></i></span>Économique</button>
-                <button><span class="icon"><i class="fas fa-child fa-fw" aria-hidden="true"></i></span>Familial</button>
-                <button><span class="icon"><i class="fas fa-heart fa-fw" aria-hidden="true"></i></span>Romantique</button>
-                <button><span class="icon"><i class="fas fa-dog fa-fw" aria-hidden="true"></i></span>Animaux autorisés</button>
-            </div>
-            <div>
-            <span class="inficon"><i class="fas fa-info" aria-hidden="true"></i></span>Plus de 500 logements sont disponibles dans cette ville
-            </div>
-    </section>
-
-    <section>
-        <h3>Hébergement à Marseille</h3>
-    </section>
-    
-    <section>
-        <h3>Les plus populaires</h3>
-    </section>
-    
-    <section>
-        <h3>Activités à Marseille</h3>
-    </section>
-    </div>
     <footer>
-       
         <div>
             <h3>A propos</h3>
             <ul>
