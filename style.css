@@ -3,7 +3,8 @@
 body {
     margin: 0px 0px 0px 0px;
     font-family: raleway;
-}
+    font-size: 0.80rem;
+    }
 li {
     list-style: none; 
 }
@@ -15,6 +16,12 @@ li {
 
 /*----------Menu de navigation principal---------*/
 
+.logo{
+    width: 5rem;
+    height: auto;
+    padding-top: 25px;
+}
+
 .navheader {
     display: flex;
     justify-content: space-between ;
@@ -23,26 +30,25 @@ li {
 .menu {
     display: flex;
     justify-content: space-between  ;
-    padding-top : 20px;
+    padding-top : 25px;
 }
 
 .menu a{
     color: black;
-    font-weight: normal;
     text-decoration: none;
     border-top : 4px;
-    padding-top : 32px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top : 37px;
+    padding-left: 30px;
+    padding-right: 30px;
     
 }
 
 #register {
     color: #0065fc;
-    font-weight: bold;
     text-decoration: none;
+    font-weight: 700;
     border-top : 4px;
-    padding-top : 32px;
+    padding-top : 30px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -59,38 +65,50 @@ li {
 }
 .search{
     margin-bottom: 35px;
+    
 }
 .searchtape{
     display: flex;
     margin-bottom: 25px;
 }
+.textRecherche{
+    font-size: 0.9rem;
+    font-weight: 725;
+    font-family: raleway;
+}
+.ecriture {
+    font-size: 0.9rem;
+    font-weight: 725;
+    font-family: raleway;
+}
 .fa-map-marker-alt{
-    padding: 15px 19px;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 10px 15px;
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    
 }
 input[type=search]{
-    width: 235px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     border: none;
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
     text-align: center;
-    font-size: 1rem;
-    font-weight: 700;
+    
 }
 input[type=submit]{
-    width: 134px;
-    height: 51px;
+    width: 115px;
+    height: 40px;
     border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #0065FC;
     color: white;
-    font-size: 1rem;
-    font-weight: 700;
+    
 }
 input[type=submit]:hover{
     color: #0065FC;
@@ -100,46 +118,47 @@ input[type=submit]:hover{
 }
 .filtres{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    
 }
-.filtres h3{
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
+
 .filtres button{
     display: flex;
     align-items: center;
-    height: 50px;
-    font-size: 1.06rem;
-    font-weight: bold;
-    border: 2px solid #F2F2F2;
-    border-radius: 50px;
+    height: 35px;
+    border: 3px solid #F2F2F2;
+    border-radius: 25px;
     background: none;
-    padding: 0 20px 0 0;
-    margin-right: 24px;
+    padding: 0 10px 0 0;
+    margin-right: 20px;
+    margin-top: 6px;
     outline: none;
     cursor: pointer;
+    font-size: 0.90rem;
+    font-weight: 700;
+    font-family: raleway;
 }
 .icon{
+    font-size: 1rem;
     display: flex;
-    height: 50px;
-    width: 50px;
-    margin-right: 12px;
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
     align-items: center;
     justify-content: center;
-    background-color: #F2F2F2;
-    border-radius: 50px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
     color: #0065FC;
 }
 .inficon{
     display: inline-flex ;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     align-items: center;
     justify-content: center;
-    margin-right: 5px;
-    justify-content: 12px;
+    font-size: 0.7rem;
+    margin-right: 7px;
+    margin-top: 15px;
+    justify-content: 15px;
     background-color: #ffffff;
     border-radius: 50%;
     border: 2px #f2f2f2 solid;
@@ -159,17 +178,21 @@ main{
     margin: 0 auto;
 }
 h1{
-    font-size: 1.25rem;
-    margin: 0;
+    margin: 0 0 0.5 0;
+    font-weight: 900;
+    font-size: 1.1rem;
 }
 h2{
-    font-size: 1.06rem;
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 1.05rem;
+    margin-right: 30px;
+    
 }
 
 p{
-    font-size: 0.8rem;
-}
+    font-size: 0.80rem;
+    }
+
 a{
     text-decoration: none;
     color: black;
@@ -193,7 +216,6 @@ p {
 
 .fas fa-map-marker-alt {
     font-family: "Font Awesome 5 Free";
-    font-size: medium;
     display: flex;
     }
 
@@ -210,5 +232,9 @@ footer {
 .sectionfooter ul{
     padding: 0px 0px 0px 0px;
 }
+.sectionfooter li{
+    padding: 5px 0px 5px 0px;
+}
+
 
 
