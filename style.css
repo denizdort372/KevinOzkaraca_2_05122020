@@ -13,24 +13,17 @@ li {
 
 /*----------Header----------*/
 
-/*----------Titre principale----------*/
-
-h1 {
-    color: #0065fc;
-    font-family: rango;
-    display: inline;
-    margin-top: 0px;
-    text-size-adjust: 10px;
-}
-
 /*----------Menu de navigation principal---------*/
+
+.navheader {
+    display: flex;
+    justify-content: space-between ;
+}
 
 .menu {
     display: flex;
-    justify-content: space-evenly ;
-    margin-left: 650px;
-    margin-top: 35px;
-    margin-bottom: 0px;
+    justify-content: space-between  ;
+    padding-top : 20px;
 }
 
 .menu a{
@@ -41,6 +34,7 @@ h1 {
     padding-top : 32px;
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 #register {
@@ -55,9 +49,8 @@ h1 {
 
 .menu a:hover{
     border-top: 4px #0065fc solid;
-    color: #0065fc;
-    font-weight: bold;
-    }
+    color: #0065fc;    
+}
 
 /*-----------Section de recherche----------*/
 
@@ -165,11 +158,11 @@ main{
     max-width: 1340px;
     margin: 0 auto;
 }
-h2{
+h1{
     font-size: 1.25rem;
     margin: 0;
 }
-h3{
+h2{
     font-size: 1.06rem;
     font-weight: bold;
 }
@@ -193,11 +186,6 @@ a:hover{
     margin-top: 25px;
     margin-bottom: 25px;
 }
-h2 {
-    margin: 0;
-    padding: 0;
-}
-
 p {
     margin: 0;
     padding: 0;
@@ -208,11 +196,19 @@ p {
     font-size: medium;
     display: flex;
     }
+
 /*----------Footer----------*/
+
 footer { 
     background-color: #f2f2f2;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0px;
 }
+.normaliz{
+    margin: 0px 250px 0px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.sectionfooter ul{
+    padding: 0px 0px 0px 0px;
+}
+
 
