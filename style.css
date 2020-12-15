@@ -337,6 +337,70 @@ h4{
     display: flex;
     justify-content: space-between;
     }
+.Popeticon {
+    display: flex;
+    justify-content: space-between;
+    }
+.fa-chart-line {
+    margin: 15px 15px 0 0;
+    justify-content: space-between;
+}
+/*----------Activités à Marseille------------>*/
+
+.BlockActivite {
+    margin: 0;
+    height: 550px;
+    width: 1440px;
+    display: flex;
+}
+.miniaActivit{
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+    color: black;
+    height: 200px;
+    width: 255px;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 4px rgba(255, 225, 225, 0.675);
+}
+.IMGActiviteBIG{
+    border-radius: 20px 20px 0px 0px;
+    height: 500px;
+    width: 300px;
+    margin: 0;
+    display: flex;
+}
+.IMGActiviteSMALLa{
+    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+    width: 320px;
+    margin: 0;
+    display: flex ;
+    
+}
+.IMGActiviteSMALLb{
+    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+    width: 320px;
+    margin: 0;
+    display: flex ;
+    
+}
+.TexteSousActivit{
+    margin: 0px;
+    padding: 5px;
+    font-size: 1rem;
+}
+.SmallUpDown {
+    display: flex ;
+    flex-direction: column;
+    width: 330px;
+    height: 500px;
+		 
+}
+
 /*----------Footer----------*/
 
 footer { 
