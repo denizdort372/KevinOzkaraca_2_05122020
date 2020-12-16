@@ -9,8 +9,11 @@ li {
     list-style: none; 
 }
 .decalage{
-    margin: 0px 40px 0px 40px;
+    margin: 0px 40px 45px 40px;
     }
+img {
+    object-fit: cover;
+}
 
 /*----------Header----------*/
 
@@ -58,6 +61,7 @@ li {
     color: #F2F2F2;
     background-color:  #0065fc;
     cursor: pointer; 
+    border-radius: 0px 0px 20px 20px;
 }
 
 .menu a:hover{
@@ -353,11 +357,11 @@ h4{
      
 }
 figure{
-    margin: 17px ;
+    margin: 20px ;
     padding: 0px;
     justify-content: space-between;
     justify-items: auto;
-    border-spacing: 10px;  
+    border-spacing: 15px;  
 }
 .miniaActivite{
     height: auto;
@@ -383,7 +387,7 @@ figure{
 }
 .IMGActiviteSMALLb{
     border-radius: 20px 20px 0px 0px;
-    height: 150px;
+    height: 148px;
     width: 322px;
     margin: 0px; 
      
