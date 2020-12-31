@@ -24,6 +24,9 @@ h4 {
     padding: 5px;
     font-size: 1rem;
 }
+h3{
+    font-size: 1.1rem;
+}
 li {
     list-style: none; 
 }
@@ -105,7 +108,7 @@ a:hover{
 .searchicon{
     display: none;
 }
-.search{
+.search1{
     margin-bottom: 35px;
 }
 .searchtape{
@@ -361,6 +364,11 @@ figure{
     border-radius: 20px;
     border: 0px solid rgb(255, 255, 255);
     box-shadow: 0px 0px 10px 4px rgba(175, 175, 175, 0.675);
+    margin: 20px ;
+    padding: 0px;
+    justify-content: space-between;
+    justify-items: auto;
+    border-spacing: 15px;  
 }
 .IMGActiviteBIG{
     border-radius: 20px 20px 0px 0px;
@@ -396,6 +404,7 @@ figure{
     margin: 0px;
     padding: 10px;
     font-size: 1rem;
+    
 }
 .SmallUpDown {
     margin:0;
@@ -446,6 +455,9 @@ body {
 .HTMLdecalage {
     margin-left: 2%;
     margin-right: 2%;   
+}
+h3{
+    font-size: 1.1rem;
 }
 h4 {
     margin: 0px;
@@ -536,7 +548,7 @@ a:hover{
 .searchicon{
     display: none;
 }
-.search{
+.search1{
     margin-bottom: 35px;
 }
 .searchtape{
@@ -804,6 +816,7 @@ figure{
     margin: 0px;
     padding: 10px;
     font-size: 0.8rem;
+    margin-bottom: 25px;
 }
 
 
@@ -847,6 +860,9 @@ h4 {
     margin: 0px;
     padding: 5px;
     font-size: 1rem;
+}
+h3{
+    font-size: 1.1rem;
 }
 li {
     list-style: none; 
@@ -973,6 +989,7 @@ a:hover{
     font-size: 1.1rem;
     font-weight: 700;
     width: 40%;
+    display: none;
 }
 .fas fa-search{
     font-family:"FontAwesome";
@@ -1242,7 +1259,7 @@ figure{
     margin: 0px;            
 }
 .TexteSousActivit{
-    margin: 0px;
+    margin-bottom: 25px;
     padding: 10px;
     font-size: 0.8rem;
 }
