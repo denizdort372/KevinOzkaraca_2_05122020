@@ -34,7 +34,6 @@ img {
     object-fit: cover;
 }
 h1 {
-    margin: 0 0 0.5 0;
     font-weight: 700;
     font-size: 1.3rem;
 }
@@ -122,7 +121,6 @@ a:hover{
 }
 .ecriture {
     font-size: 1.1rem;
-    font-weight: 725;
     font-family: raleway;
 }
 .fa-map-marker-alt{
@@ -208,7 +206,6 @@ input[type=submit]:hover{
     font-size: 0.8rem;
     margin-right: 7px;
     margin-top: 15px;
-    justify-content: 15px;
     background-color: #ffffff;
     border-radius: 50%;
     border: 2px #f2f2f2 solid;
@@ -222,7 +219,6 @@ input[type=submit]:hover{
     color: rgb(0, 61, 173);
     background-color: white;
     border-color: #F2F2F2;
-    scale: 1.3;
 }
 .filtres button:hover {
     background-color: #DEEBFF;
@@ -251,7 +247,7 @@ p {
 /*----------hébergements----------*/
 
 .titreCadre{
-    margin: 20 0 0 0px;
+    
     padding: 0 0 0 20px;
 }
 #Gheberge {
@@ -306,7 +302,6 @@ width: 60.5%;
     background-color: rgb(242, 242, 242);
     border-radius: 20px;
     width: 35%;
-    height: 597.5;
     justify-content: space-around;
 }
 .pluspop {
@@ -355,7 +350,6 @@ figure{
     margin: 20px ;
     padding: 0px;
     justify-content: space-between;
-    justify-items: auto;
     border-spacing: 15px;  
 }
 .miniaActivite{
@@ -367,7 +361,6 @@ figure{
     margin: 20px ;
     padding: 0px;
     justify-content: space-between;
-    justify-items: auto;
     border-spacing: 15px;  
 }
 .IMGActiviteBIG{
@@ -474,7 +467,7 @@ img {
     object-fit: cover;
 }
 h1 {
-    margin: 0 0 0.5 0;
+    
     font-weight: 700;
     font-size: 1.3rem;
 }
@@ -562,7 +555,6 @@ a:hover{
 }
 .ecriture {
     font-size: 1.1rem;
-    font-weight: 725;
     font-family: raleway;
 }
 .fa-map-marker-alt{
@@ -648,7 +640,7 @@ input[type=submit]:hover{
     font-size: 0.8rem;
     margin-right: 7px;
     margin-top: 15px;
-    justify-content: 15px;
+    
     background-color: #ffffff;
     border-radius: 50%;
     border: 2px #f2f2f2 solid;
@@ -662,7 +654,7 @@ input[type=submit]:hover{
     color: rgb(0, 61, 173);
     background-color: white;
     border-color: #F2F2F2;
-    scale: 1.3;
+    
 }
 .filtres button:hover {
     background-color: #DEEBFF;
@@ -691,7 +683,7 @@ p {
 /*----------hébergements----------*/
 
 .titreCadreHEB{
-    margin: 20 0 0 0px;
+    margin: 20px 0 0 0;
     padding: 0 0 0 20px;
 }
 #Gheberge {
@@ -743,16 +735,16 @@ margin: 0 0 25px 0;
 /*----------Plus populaire----------*/
 
 .titreCadrePOP{
-    margin: 45 0 0 0px;
+    margin: 45px 0 0 0;
     padding: 0 0 0 20px;
 }
 .pluspopcomplet {
-    margin: 45 0 0 0px;
+    
     padding: 10px 10px 10px 10px;    
     background-color: rgb(242, 242, 242);
     border-radius: 20px;
     width: 100%;
-    height: 597.5;
+    
 }
 .pluspop {
     margin: 10px;
@@ -871,7 +863,7 @@ img {
     object-fit: cover;
 }
 h1 {
-    margin: 0 0 0.5 0;
+ 
     font-weight: 700;
     font-size: 1.3rem;
 }
@@ -1008,7 +1000,7 @@ a:hover{
     }
 .ecriture {
     font-size: 1.1rem;
-    font-weight: 725;
+    
     font-family: raleway;
 }
 .fa-map-marker-alt{
@@ -1094,7 +1086,6 @@ input[type=submit]:hover{
     font-size: 0.8rem;
     margin-right: 7px;
     margin-top: 15px;
-    justify-content: 15px;
     background-color: #ffffff;
     border-radius: 50%;
     border: 2px #f2f2f2 solid;
@@ -1108,7 +1099,7 @@ input[type=submit]:hover{
     color: rgb(0, 61, 173);
     background-color: white;
     border-color: #F2F2F2;
-    scale: 1.3;
+   
 }
 .filtres button:hover {
     background-color: #DEEBFF;
@@ -1137,7 +1128,7 @@ p {
 /*----------hébergements----------*/
 
 .titreCadreHEB{
-    margin: 20 0 0 0px;
+    
     padding: 0 0 0 20px;
 }
 #Gheberge {
@@ -1189,16 +1180,15 @@ margin: 0 0 25px 0;
 /*----------Plus populaire----------*/
 
 .titreCadrePOP{
-    margin: 45 0 0 0px;
+    margin: 0 0 0 0;
     padding: 0 0 0 20px;
 }
 .pluspopcomplet {
-    margin: 45 0 0 0px;
+    margin: 45px 0px 0px 0px;
     padding: 10px 10px 10px 10px;    
     background-color: rgb(242, 242, 242);
     border-radius: 0px;
     width: 100%;
-    height: 597.5;
 }
 .pluspop {
     margin: 10px;
